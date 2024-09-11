@@ -1,0 +1,37 @@
+.product-card img{
+    height: 300px;
+}
+
+.product-card img:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+}
+
+.product-image-container{
+    height:300px;
+    width: 255px;
+    overflow: hidden;
+}
+
+.product-card{
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.product-card p:nth-child(2){
+    padding-top: 10px;
+}
+.product-card p:nth-child(3){
+    padding-top: 5px;
+}
+
+@media screen and (max-width:930px){
+    .product-card img{
+        height:45vw;
+    }
+    .product-image-container{
+        height: 45vw;
+        width: 39vw;
+    }
+}

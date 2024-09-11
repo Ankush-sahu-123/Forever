@@ -1,0 +1,16 @@
+.title-text{
+    display: flex;
+    gap: 5px;
+    font-size:28px;
+}
+
+.title-text p:nth-child(1){
+    color: #2c2c2c93;
+}
+
+.title-text p:nth-child(3){
+    width: 45px;
+    height: 2px;
+    background-color: #7e7b7b;
+    margin-top: 17px;
+}

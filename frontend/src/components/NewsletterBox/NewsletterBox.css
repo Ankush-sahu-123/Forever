@@ -1,0 +1,39 @@
+.newsletter{
+    text-align: center;
+    margin-bottom: 95px;
+}
+
+.newsletter p:nth-child(1){
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.newsletter p:nth-child(2){
+    color: #838181d5;
+}
+
+form{
+    margin: 25px 0;
+}
+
+form input{
+    padding: 10px 12px;
+    width: 500px;
+    font-size: 15px;
+    border: solid 1px #cac6c6;
+    outline: none;
+}
+
+form button{
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    border: solid 1px #000;
+}
+
+@media screen and (max-width:930px){
+    form input{
+        width:50vw;
+    }
+}
